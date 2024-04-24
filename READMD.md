@@ -13,7 +13,7 @@ open GL 교제에 나오는 안드로이드 그래픽 모션을 활용하여 곰
 3. 강물에 발을 담궈 앉아 인사하는 푸
 
 ## 실행화면
-<img src="/poo_motion_실행.gif" width="700" height="370">
+<img src="/poo_motion_실행.gif">
 
 
 ## 응용내용
