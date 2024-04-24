@@ -90,6 +90,7 @@ void DrawGround() {
 }
 ```
 푸가 달릴 때는 지면이 빠르게, 저글링 할 때는 느리게 움직이도록 수정 했다. 
+
 저글링 하는 함수인 Jug()는 팔의 각도를 변경하여 어깨는 고정, 손은 아래, 위로 움직이되, 반대방향으로 움직이도록 설정했다. 
 
 <br/>
@@ -110,4 +111,5 @@ void MyKeyboard(unsigned char KeyPressed, int x, int y) {
 ```
 
 키보드 콜백 : Wire/Solid 모드를 ‘w’, ‘s’를 사용하여 조정 가능하도록 만들었고 메인함수에서 서브메뉴를 추가하여서 설정할 수 있게 했다.
+
 마우스 콜백 : 오른쪽 마우스를 누르면 메뉴를 띄우고 wire/solid설정 메뉴, run, juggling, insa, exit메뉴로 구성했다.
